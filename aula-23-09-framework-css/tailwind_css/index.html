@@ -6,40 +6,73 @@
     <title>Projeto com Tailwind CSS</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="flex min-h-screen flex-col items-center bg-slate-50 p-3 font-sans text-slate-700 sm:p-6">
-    <h1 class="mb-6 border-b-4 border-indigo-400 px-5 py-3 text-center text-2xl font-bold text-indigo-700 sm:text-3xl">
-        Front-end demonstrativo para Aula
-    </h1>
+<body class="min-h-screen bg-slate-950 bg-[radial-gradient(circle_at_top_right,_rgba(8,145,178,0.18),_transparent_35%),linear-gradient(135deg,_#020617,_#0f172a_55%,_#082f49)] px-3 py-8 font-mono text-slate-100 sm:px-8">
+    <main class="mx-auto flex w-full max-w-7xl flex-col gap-6">
+        <header class="flex flex-col justify-between gap-5 border-b border-cyan-400/30 pb-6 sm:flex-row sm:items-end">
+            <div>
+                <p class="mb-2 text-xs font-bold uppercase tracking-[0.35em] text-cyan-400">// CSS_FRAMEWORK / LIVE_GRID</p>
+                <h1 class="text-3xl font-black uppercase tracking-tight text-white sm:text-5xl">Front-end <span class="text-cyan-400">demonstrativo</span></h1>
+                <p class="mt-2 max-w-xl text-sm text-slate-400">Interface modular para explorar layout responsivo com Tailwind CSS.</p>
+            </div>
+            <div class="flex items-center gap-3 self-start rounded-full border border-emerald-400/30 bg-emerald-400/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-emerald-300 sm:self-auto">
+                <span class="h-2 w-2 animate-pulse rounded-full bg-emerald-400 shadow-[0_0_12px_#34d399]"></span>
+                sistema online
+            </div>
+        </header>
 
-    <section class="flex min-h-48 w-[90vw] flex-row flex-wrap content-center items-center justify-evenly gap-3 rounded-2xl border-2 border-indigo-200 bg-indigo-100 p-4 shadow-md">
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-xl font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:h-32 sm:basis-[18%]">1</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-xl font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:h-32 sm:basis-[18%]">2</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-xl font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:h-32 sm:basis-[18%]">3</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-xl font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:h-32 sm:basis-[18%]">4</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-xl font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:h-32 sm:basis-[18%]">5</div>
-    </section>
+        <section class="rounded-2xl border border-cyan-400/30 bg-slate-900/75 p-4 shadow-[0_0_35px_rgba(8,145,178,0.12)] backdrop-blur sm:p-6">
+            <div class="mb-4 flex items-center justify-between">
+                <div>
+                    <p class="text-xs uppercase tracking-[0.25em] text-cyan-400">01 / NODES</p>
+                    <h2 class="mt-1 text-lg font-bold uppercase text-white">Módulos principais</h2>
+                </div>
+                <span class="text-xs text-slate-500">05 unidades</span>
+            </div>
+            <div class="flex flex-row flex-wrap items-center justify-evenly gap-3">
+                <div class="group flex h-28 basis-[45%] flex-col items-center justify-center rounded-xl border border-cyan-400/40 bg-cyan-400/10 text-cyan-300 shadow-[inset_0_0_20px_rgba(34,211,238,0.08)] transition duration-300 hover:-translate-y-1 hover:border-cyan-300 hover:bg-cyan-400/20 hover:shadow-[0_0_22px_rgba(34,211,238,0.22)] sm:h-36 sm:basis-[17%]"><span class="text-3xl font-black">01</span><span class="mt-2 text-[10px] uppercase tracking-widest text-cyan-500">active</span></div>
+                <div class="group flex h-28 basis-[45%] flex-col items-center justify-center rounded-xl border border-cyan-400/40 bg-cyan-400/10 text-cyan-300 shadow-[inset_0_0_20px_rgba(34,211,238,0.08)] transition duration-300 hover:-translate-y-1 hover:border-cyan-300 hover:bg-cyan-400/20 hover:shadow-[0_0_22px_rgba(34,211,238,0.22)] sm:h-36 sm:basis-[17%]"><span class="text-3xl font-black">02</span><span class="mt-2 text-[10px] uppercase tracking-widest text-cyan-500">active</span></div>
+                <div class="group flex h-28 basis-[45%] flex-col items-center justify-center rounded-xl border border-cyan-400/40 bg-cyan-400/10 text-cyan-300 shadow-[inset_0_0_20px_rgba(34,211,238,0.08)] transition duration-300 hover:-translate-y-1 hover:border-cyan-300 hover:bg-cyan-400/20 hover:shadow-[0_0_22px_rgba(34,211,238,0.22)] sm:h-36 sm:basis-[17%]"><span class="text-3xl font-black">03</span><span class="mt-2 text-[10px] uppercase tracking-widest text-cyan-500">active</span></div>
+                <div class="group flex h-28 basis-[45%] flex-col items-center justify-center rounded-xl border border-cyan-400/40 bg-cyan-400/10 text-cyan-300 shadow-[inset_0_0_20px_rgba(34,211,238,0.08)] transition duration-300 hover:-translate-y-1 hover:border-cyan-300 hover:bg-cyan-400/20 hover:shadow-[0_0_22px_rgba(34,211,238,0.22)] sm:h-36 sm:basis-[17%]"><span class="text-3xl font-black">04</span><span class="mt-2 text-[10px] uppercase tracking-widest text-cyan-500">active</span></div>
+                <div class="group flex h-28 basis-[45%] flex-col items-center justify-center rounded-xl border border-cyan-400/40 bg-cyan-400/10 text-cyan-300 shadow-[inset_0_0_20px_rgba(34,211,238,0.08)] transition duration-300 hover:-translate-y-1 hover:border-cyan-300 hover:bg-cyan-400/20 hover:shadow-[0_0_22px_rgba(34,211,238,0.22)] sm:h-36 sm:basis-[17%]"><span class="text-3xl font-black">05</span><span class="mt-2 text-[10px] uppercase tracking-widest text-cyan-500">active</span></div>
+            </div>
+        </section>
 
-    <section class="mt-6 flex w-[90vw] flex-row flex-wrap content-around items-center justify-evenly gap-x-3 gap-y-4 rounded-2xl border-2 border-indigo-200 bg-indigo-100 p-4 shadow-md">
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">1</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">2</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">3</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">4</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">5</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">6</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">7</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">8</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">9</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">10</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">11</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">12</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">13</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">14</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">15</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">16</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">17</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">18</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">19</div>
-        <div class="flex h-24 basis-[40%] items-center justify-center rounded-xl border-2 border-violet-300 bg-violet-200 text-lg font-bold text-violet-900 transition hover:-translate-y-1 hover:bg-violet-300 sm:basis-[18%]">20</div>
-    </section>
+        <section class="rounded-2xl border border-slate-700 bg-slate-900/80 p-4 shadow-2xl sm:p-6">
+            <div class="mb-5 flex flex-col justify-between gap-2 border-b border-slate-700 pb-4 sm:flex-row sm:items-center">
+                <div>
+                    <p class="text-xs uppercase tracking-[0.25em] text-lime-400">02 / FLEX_MATRIX</p>
+                    <h2 class="mt-1 text-lg font-bold uppercase text-white">Grid de elementos</h2>
+                </div>
+                <span class="text-xs text-slate-500">20 slots responsivos // flex-wrap: enabled</span>
+            </div>
+            <div class="flex flex-row flex-wrap content-around items-center justify-evenly gap-x-3 gap-y-4">
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">01</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">02</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">03</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">04</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">05</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">06</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">07</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">08</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">09</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">10</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">11</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">12</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">13</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">14</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">15</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">16</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">17</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">18</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">19</div>
+                <div class="flex h-20 basis-[20%] items-center justify-center rounded-lg border border-lime-400/40 bg-lime-400/10 text-lg font-bold text-lime-300 transition duration-300 hover:scale-105 hover:border-lime-300 hover:bg-lime-400/20 hover:shadow-[0_0_18px_rgba(163,230,53,0.2)] sm:basis-[9%]">20</div>
+            </div>
+        </section>
+
+        <footer class="flex flex-col justify-between gap-2 text-[10px] uppercase tracking-[0.2em] text-slate-500 sm:flex-row">
+            <span>Tailwind CSS / responsive system</span>
+            <span>grid status: <span class="text-lime-400">nominal</span></span>
+        </footer>
+    </main>
 </body>
 </html>
